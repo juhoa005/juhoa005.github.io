@@ -1,28 +1,24 @@
-img {
-    width: 300px;
-    height: 300px;
-}
-.MyFirstDiv{
-    color: rgba(255, 255, 255, 0.5);
-    padding: 15px 20px 25px 10px;
-    margin: 20px 150px 150px 150px;
-    border: 2px solid rgb(0, 255, 238);
-    background-color: rgba(40, 25, 60, 1);
-}
-
-.MySecondDiv{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
-    color: rgb(0, 0, 0);
-    padding: 15px 15px 15px 15px;
-    margin: 15px 15px 15px 15px;
-    border: 2px solid darkblue;
-    background-color: yellow;
-    background-image: url(/images/backround.jpg);
-    text-align: center;
-}
-
-.MyThirdDiv{
+#WelcomeSection{
+    background-image: url(/images/cloud.png);
+    background-size: cover;
+    color: black;
+    height: 8em;
     display: flex;
     justify-content: center;
-    text-align: center;
+    align-items: center;
+}
+
+#WelcomeSection h1{
+    font-family: sans-serif;
+    font-size: 3em;
+}
+
+.nav{
+    position: fixed;
+    margin: 10px;
+    border: 2px solid rgba(0, 0, 0, 1.0);
+}
+
+.nav li{
+    display: inline;
 }
