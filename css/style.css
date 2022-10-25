@@ -16,9 +16,40 @@
 .nav{
     position: fixed;
     margin: 10px;
-    border: 2px solid rgba(0, 0, 0, 1.0);
+    border: 2px solid rgba(0, 0, 0, 0);
+}
+
+.nav ul{
+    display: inline;
 }
 
 .nav li{
     display: inline;
 }
+
+.nav a{
+    display: inline-block;
+    color: black;
+    background-color: rgba(150, 182, 251, 0.4);
+    padding: 0.5em;
+}
+.nav a:hover{
+    background-color: rgba(157, 187, 230, 0.8);
+}
+
+.utplassering-nav{
+    text-align: left;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.main-nav{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#About{
+    margin-top: 5em;
+}
+
