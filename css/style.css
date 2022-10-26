@@ -2,7 +2,7 @@
     background-image: url(/images/cloud.png);
     background-size: cover;
     color: black;
-    height: 8em;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,8 +15,9 @@
 
 .nav{
     position: fixed;
-    margin: 10px;
+    margin: 0px;
     border: 2px solid rgba(0, 0, 0, 0);
+    background-color: rgba(150, 182, 230, 0.3);    
 }
 
 .nav ul{
@@ -30,8 +31,8 @@
 .nav a{
     display: inline-block;
     color: rgb(0, 0, 0);
-    background-color: rgba(150, 182, 251, 0.4);
     padding: 0.5em;
+    text-decoration: none;
 }
 .nav a:hover{
     background-color: rgba(157, 187, 230, 0.8);
@@ -44,12 +45,73 @@
 }
 
 .main-nav{
+    position: fixed;
+    width: 100%;
     text-align: center;
     font-size: 1.5em;
     font-weight: bold;
 }
 
 #About{
-    margin-top: 5em;
+    display: grid;
+    grid-template-areas:
+    "header header header"
+    "picture main main";
+
+    height: 100vh;
+    margin: 2em 10em 0 10em;
 }
 
+.section-header{
+    grid-area: header;
+    font-size: 2em;
+    color: rgb(0, 0, 0);
+    font-family: Papyrus;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.about-image{
+    grid-area: picture;
+    border-radius: 0%;
+    margin: 15px;
+}
+
+.about-content{
+    grid-area: main;
+    font-family: sans-serif;
+    font-size: 1em;
+}
+
+#footer{
+    margin: 0px;
+    border: 2px solid rgba(0, 0, 0, 0);
+    background-color: rgba(150, 182, 230, 0.3);    
+}
+
+#footer ul{
+    display: inline;
+}
+
+#footer li{
+    display: inline;
+}
+
+#footer a{
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    padding: 0.5em;
+    text-decoration: none;
+}
+#footer a:hover{
+    background-color: rgba(157, 187, 230, 0.8);
+}
+
+
+.main-footer{
+    width: 100%;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
