@@ -39,8 +39,9 @@
 }
 
 .utplassering-nav{
+    background-color: rgba(0, 0, 0, 0);
     text-align: left;
-    font-size: 1.5em;
+    font-size: 4.1em;
     font-weight: bold;
 }
 
@@ -105,13 +106,24 @@
     text-decoration: none;
 }
 #footer a:hover{
-    background-color: rgba(157, 187, 230, 0.8);
+    background-color: rgba(255, 255, 255, 0.7);
 }
 
 
 .main-footer{
     width: 100%;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1em;
     font-weight: bold;
+}
+
+#Start{
+    background-image: url(/images/cloud.png);
+    background-size: cover;
+    color: black;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
 }
