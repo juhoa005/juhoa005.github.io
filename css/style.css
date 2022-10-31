@@ -70,7 +70,6 @@
     font-family: Papyrus;
     font-weight: bold;
     text-align: center;
-
 }
 
 .about-image{
@@ -126,4 +125,80 @@
     justify-content: center;
     align-items: center;
     text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.visma{
+    background-size: cover;
+    color: black;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.visma-list{
+    background-size: cover;
+    color: black;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.timeplan{
+    background-size: cover;
+    color: black;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+
+.visma-list{
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.oppgaver{
+    background-size: cover;
+    color: black;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.oppgaver-list{
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 2.5em;
+}
+
+.dataskap{
+    background-size: cover;
+    color: black;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
